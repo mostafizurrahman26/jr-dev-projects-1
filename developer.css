@@ -75,16 +75,24 @@ top: 1889px;
     }
 
 .contact{
-background: #151414;
 position: absolute;
 width: 1600px;
-height: 377px;
+height: 167px;
 left: 0px;
-top: 2652.26px;
-/* display: flex;
-gap: 100px;
-background-color:#151414; */
+top: 2652.26px; 
+
 }
-.contact .section-title{
-    text-align: lef
+.contact-media{
+position: absolute;
+width:485px;
+height:317px;
+left:230px;
+top:2782.26px;
+}
+.message{
+position:absolute;
+width: 325px;
+height: 204px;
+left: 1046px;
+top: 2782.26px;
 }
