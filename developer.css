@@ -66,19 +66,25 @@ left: 1157px;
 top: 1889px; 
 } 
 .gradient{
-    background-image: url("images/gradient2.png");
+    background-image: url("./images/gradient3.png");
+    position: absolute;
     width: 1140px;
     height: 300px;
     top: 2222px;
     left: 230px;
-    
-}
+    }
 
-/* .contact{
-display: flex;
+.contact{
+background: #151414;
+position: absolute;
+width: 1600px;
+height: 377px;
+left: 0px;
+top: 2652.26px;
+/* display: flex;
 gap: 100px;
-background-color:#151414;
+background-color:#151414; */
 }
 .contact .section-title{
     text-align: lef
-     */
+}
