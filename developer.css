@@ -1,26 +1,7 @@
 body{
     font-family:'Open Sans', sans-serif;
-    margin: 0;
-    
-    
+    margin: 0;  
 }
-
-/* .header{
-    background-image: url("./images/banner/banner1.png");
-    background-repeat: no-repeat;
- } */
-/* .section{
-     background-image: url("images/banner/banner1.png");
-    background-repeat: no-repeat; 
-}  */
-/* .top-banner{
-    display: flex;
-    width: 20%;
-} */
-
-/* .half-width img{
-    width: 50%;
-} */
 .top-banner{
 width: 1600px;
 height: 808px;
@@ -39,16 +20,6 @@ top: 808px;
     left: 840px;
     
 }
-
-/* Width
-525px
-Height
-228px
-Top
-216px
-Left
-845px */
-
 .link-button{
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
@@ -67,45 +38,47 @@ top: 939px;
 }
 
 .text-title{
-    position: absolute;
+position: absolute;
 width: 416px;
 height: 400px;
 left: 862px;
 top: 1178px;
-    
-    
-    
-    /* position: absolute;
-    width: 50%;
-    text-align: center;
-    left: 50%; */
-    
 
 }
-/* .contact{
-    background-color: black;
-    color: white;
-    padding: 20;
-    width: 70%;
-    display: flex;
-    gap: 200px; */
-/* } */
 .plan{
     position: absolute;
-width: 1141px;
-height: 299.96px;
-left: 230px;
-top: 1792.3px;
+    width: 1141px;
+    height: 299.96px;
+    left: 230px;
+    top: 1792.3px;
 }
-.contact{
+.text{
+    text-align: center;
+    font-size: 40px; 
+}
+.container{
+    display: flex;
+}
+.position{
+width: 400px;
+height: 197px;
+left: 1157px;
+top: 1889px; 
+} 
+.gradient{
+    background-image: url("images/gradient2.png");
+    width: 1140px;
+    height: 300px;
+    top: 2222px;
+    left: 230px;
+    
+}
+
+/* .contact{
 display: flex;
 gap: 100px;
 background-color:#151414;
 }
 .contact .section-title{
-    text-align: left;
-}
-
-
-
-    
+    text-align: lef
+     */
