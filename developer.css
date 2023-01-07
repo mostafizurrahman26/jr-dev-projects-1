@@ -2,13 +2,15 @@ body{
     font-family:'Open Sans', sans-serif;
     margin: 0;  
 }
+
+/* Top-Banner */
+
 .top-banner{
 width: 1600px;
-height: 808px;
-left: 1600px;
+height: 800px;
+left: 1598px;
 top: 808px;
 }
-
 .title-description{
     font-weight: 600;
     size: 60px;
@@ -18,8 +20,22 @@ top: 808px;
     text-align: center;
     top: 215px;
     left: 840px;
+    color: #151414;
     
 }
+
+.font-details{
+    font-weight: 600;
+    font-size: 50px;
+    color: #151414;
+}
+
+.font-size{
+    color: #444343;
+    font-weight: 400;
+    font-size:16px;
+}
+
 .link-button{
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
@@ -28,6 +44,9 @@ top: 808px;
     padding: 10px 20px;
     border-radius: 5px;
 }
+
+/* Mid-Banner */
+
 .mid-banner{
     display: flex;
     position: absolute;
@@ -44,8 +63,10 @@ width: 416px;
 height: 400px;
 left: 862px;
 top: 1178px;
-
 }
+
+/* Plan */
+
 .plan{
     position: absolute;
     width: 1141px;
@@ -66,6 +87,9 @@ height: 197px;
 left: 1157px;
 top: 1889px; 
 } 
+
+/* Gradien */
+
 .gradient{
     background-image: linear-gradient(orange, tomato); 
     position: absolute;
@@ -74,13 +98,14 @@ top: 1889px;
     top: 2222px;
     left: 230px;
     }
-
-    .positive{
+.positive{
 width:30%;
 height: 82px;
 position:absolute;
 text-align: center;
     }
+
+    /* Footer */
 
 .contact{
     position: absolute;
@@ -88,15 +113,6 @@ text-align: center;
     height: 577px;
     left: 0px;
     top: 646.3px;
-
-    /* position: absolute;
-width: 50%;
-height: 67px;
-left: 0px;
-top: 652.26px; 
-gap: 300px;  */
-
-
 }
 .contact-media{
     position: absolute;
@@ -104,13 +120,6 @@ gap: 300px;  */
     height: 317px;
     left: 230px;
     top: 2106.3px;
-
-    /* position: absolute;
-width:220px;
-height:117px;
-left:230px;
-top:2100px; */
-/* top:2782.26px;  */
 }
 .message{
     position: absolute;
@@ -118,14 +127,4 @@ top:2100px; */
     height: 204px;
     left: 1046px;
     top: 2106.3px;
-/* position:absolute;
-width: 325px;
-height: 204px;
-left: 1046px;
-top: 2100px; */
-/* width:200px;
-height: 204px;
-
-left: 1046px; */
-
 }
