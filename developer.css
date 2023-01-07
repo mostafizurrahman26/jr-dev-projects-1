@@ -1,11 +1,14 @@
 body{
     font-family:'Open Sans', sans-serif;
     margin: 0;
-    background-image: url("images/banner/banner1.png");
-    background-repeat: no-repeat;
+    
     
 }
 
+/* .header{
+    background-image: url("./images/banner/banner1.png");
+    background-repeat: no-repeat;
+ } */
 /* .section{
      background-image: url("images/banner/banner1.png");
     background-repeat: no-repeat; 
@@ -20,8 +23,10 @@ body{
 } */
 .title-description{
     width: 50%;
-    position: absolute;
+    position:absolute;
     text-align: center;
+    top: 50%;
+    left: 50%;
     
 }
 
@@ -31,6 +36,9 @@ body{
     color: white;
     font-weight:700 ;
     padding: 10px 20px;
-    border-radius: 5px;}
+    border-radius: 5px;
+}
+
+
 
     
