@@ -33,6 +33,7 @@ top: 808px;
     position: absolute;
 width: 569px;
 height: 723.3px;
+gap: 60px;
 left: 206px;
 top: 939px;
 }
@@ -66,7 +67,7 @@ left: 1157px;
 top: 1889px; 
 } 
 .gradient{
-    background-image: url("./images/gradient3.png");
+    background-image: linear-gradient(orange, tomato); 
     position: absolute;
     width: 1140px;
     height: 300px;
@@ -74,25 +75,57 @@ top: 1889px;
     left: 230px;
     }
 
+    .positive{
+width:30%;
+height: 82px;
+position:absolute;
+text-align: center;
+    }
+
 .contact{
-position: absolute;
-width: 1600px;
-height: 167px;
+    position: absolute;
+    width: 1600px;
+    height: 577px;
+    left: 0px;
+    top: 646.3px;
+
+    /* position: absolute;
+width: 50%;
+height: 67px;
 left: 0px;
-top: 2652.26px; 
+top: 652.26px; 
+gap: 300px;  */
+
 
 }
 .contact-media{
-position: absolute;
-width:485px;
-height:317px;
+    position: absolute;
+    width: 485px;
+    height: 317px;
+    left: 230px;
+    top: 2106.3px;
+
+    /* position: absolute;
+width:220px;
+height:117px;
 left:230px;
-top:2782.26px;
+top:2100px; */
+/* top:2782.26px;  */
 }
 .message{
-position:absolute;
+    position: absolute;
+    width: 325px;
+    height: 204px;
+    left: 1046px;
+    top: 2106.3px;
+/* position:absolute;
 width: 325px;
 height: 204px;
 left: 1046px;
-top: 2782.26px;
+top: 2100px; */
+/* width:200px;
+height: 204px;
+
+left: 1046px; */
+
 }
