@@ -38,6 +38,25 @@ body{
     padding: 10px 20px;
     border-radius: 5px;
 }
+.mid-banner{
+    display: flex;
+}
+
+.text-title{
+    position: absolute;
+    width: 50%;
+    text-align: center;
+    left: 50%;
+    
+
+}
+.contact{
+    display: flex;
+}
+
+.contact .section-title{
+    text-align: left;
+}
 
 
 
